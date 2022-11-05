@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: #000;
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+}
+#myCanvas{
+    border: 2px solid silver;
+    margin-top: 10px;
+}
+.header{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+}
+.detail{
+    color: #fff;
+}
+.control{
+    display: flex;
+}
+#cmp{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
